@@ -1,8 +1,8 @@
 import requests 
 import sys
 
-lable = sys.argv[0]
-value = sys.argv[1]
+lable = sys.argv[1]
+value = sys.argv[2
 
 if lable = 'ph':
   print('phone')
