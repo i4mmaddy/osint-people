@@ -7,7 +7,8 @@ value = sys.argv[2
 if lable = 'ph':
   print('phone')
   
-  // do logic here with value u get
+  req = requests.get("http://example.com/getnum="+value+" ")
+  print(red.content)
   
 else:
-  print('other')
+  print('error occured')
